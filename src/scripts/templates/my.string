@@ -1,0 +1,39 @@
+<div class="my-login" >
+	<header>
+		<ul>
+			<li action-type="back" class="yo-ico">&#xe679;</li>
+			<li><b>登录</b></li>
+			<li action-type="tap.register" data-tag="register">注册</li>
+		</ul>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="my-bg">
+				<img src="/xiguo/images/my-bg.jpg"/>
+			</div>
+			<div class="my-form">
+				<div>
+					<i class="yo-ico">&#xe737;</i>
+					<input type="text" name="username" id="username" value="" placeholder="请输入手机号"/>
+				</div>
+				<div>
+					<i class="yo-ico">&#xe692;</i>
+					<input type="password" name="pwd" id="pwd" value="" placeholder="请输入登录密码"/>
+				</div>
+				<ul>
+					<li action-type="tap.register" data-tag="register">
+						<input type="button"  id="regBtn" value="免费注册" />
+					</li>
+					<li>
+						<input type="button"  id="loginBtn" value="立即登录" />
+					</li>
+				</ul>
+				<a href="#">忘记密码?</a>
+			
+			</div>
+		</div>
+		
+		
+		
+	</section>
+</div>

@@ -1,0 +1,67 @@
+<div class="m-home">
+			<header>
+				<ul>
+		          <li class="yo-ico">&#xe745;</li>
+		          <li>
+		          	<img src="/xiguo/images/uz_icon.png"/>
+		          </li>
+		          <li class="yo-ico">&#xe684;</li>
+		        </ul>
+			</header>
+			<section spa-widget="scroll" data-scroll-id="homeScroll">
+				<div>
+					<div class="head">
+						<img src="/xiguo/images/arrow.png" width="40" height="40"/>
+						<span>下拉刷新...</span>
+					</div>
+					<div class="swiper-container" id="home-swiper">
+					  <div class="swiper-wrapper">
+					    <div class="swiper-slide">
+					      <img src="/xiguo/images/banner1.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/xiguo/images/banner2.png">
+					    </div>
+					  </div>
+					</div>
+					
+					<nav class="nav">
+						<ul>
+							<li>
+								<img src="/xiguo/images/nav1.jpg" />
+								<b>工厂直销</b>
+							</li>
+							<li>
+								<img src="/xiguo/images/nav2.jpg" />
+								<b>海外购</b>
+							</li>
+							<li>
+								<img src="/xiguo/images/nav3.jpg" />
+								<b>尿裤专区</b>
+							</li>
+							<li>
+								<img src="/xiguo/images/nav4.jpg" />
+								<b>奶粉专区</b>
+							</li>
+						</ul>
+					</nav>
+					<div class="content">
+						<ul ms-repeat-value="livelist">
+							<li action-type="goto.detail" ms-attr-data-id="value[0].id">
+								<img ms-src="value[0].imgsrc">
+								<b ms-text="value[0].title"></b>
+							</li>
+							<li ms-class-hide="!value[1]" action-type="goto.detail" ms-attr-data-id="value[1].id">
+								<img ms-src="value[1].imgsrc">
+								<b ms-text="value[1].title"></b>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="foot">
+						<img src="/xiguo/images/arrow.png" width="40" height="40"/>
+						<span>上拉加载更多...</span>
+					</div>
+				</div>
+			</section>
+		</div>

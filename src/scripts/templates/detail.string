@@ -1,0 +1,22 @@
+<div class="m-detail">
+	<header>
+		<ul>
+			<li action-type="back" class="yo-ico">&#xe679;</li>
+			<li><b>商品详情</b></li>
+			<li>分享</li>
+		</ul>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+		  <img ms-src="imgsrc"/>
+		<!--<b>
+			{{detail}}
+		</b>-->
+		<b ms-text="detail"></b>
+		</div>
+		
+	</section>
+	<div class="yo-loading" ms-visible="isShowLoading">
+		<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+	</div>
+</div>

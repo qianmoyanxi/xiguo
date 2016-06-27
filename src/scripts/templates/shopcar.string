@@ -1,0 +1,38 @@
+<!--原来的-->
+<!--<div class="m-shopcar">
+	<header>
+		<ul>
+			<li></li>
+			<li><b>购物车</b></li>
+			<li></li>
+		</ul>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="hg-img">
+				<img src="/xiguo/images/hg-bg.png"/>
+			</div>
+			
+		</div>
+				
+	
+
+	</section>
+	<!--<div class="yo-loading" ms-visible="isShowLoading">
+		<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+	</div>
+</div>-->
+
+<!--弹出效果-->
+	<div class="m-lifenav" spa-widget="scroll" data-scroll-id="lifenav-scroll">
+		<ul>
+          <li>nav01</li>
+          <li>nav02</li>
+          <li>nav03</li>
+          <li>nav04</li>
+          <li>nav05</li>
+          <li>nav06</li>
+          <li>nav07</li>
+          <li>nav08</li>
+        </ul>
+	</div>

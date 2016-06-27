@@ -1,0 +1,159 @@
+.m-index{
+    
+    .l-container{
+        
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column);
+            height: 100%;
+             > *{
+                width:100%;
+             }
+            header{
+                background:#FF4C00;
+                height:.44rem;
+                ul{
+                    @include flexbox();
+                    height: 100%;
+                    li{
+                        height:100%; 
+                        width:.44rem;
+                        text-align: center;
+                        line-height: .44rem;
+                        color: #fff;
+                        font-size: .2rem;
+                        &:nth-child(2){
+                            @include flex(1);
+                           text-align: center;
+                            img{
+                                display: block;
+                                height:100%;
+    //                           @include flexbox();
+                              @include justify-content(center);
+                              @include align-items(center);
+                            }
+                        }
+                    }
+                }
+            }
+            section{
+                @include flex(1);
+                width:100%;
+                height:100%;
+                overflow: hidden;
+                
+                //isscroll pull to refresh
+                .head{
+                    text-align:center;
+                    height:.3rem;
+                    line-height: .3rem;
+                }
+                .head img{
+                    display:inline-block;
+                    height:.15rem;
+                    width:.15rem;
+                    transform: rotate(180deg);
+                    -webkit-transform: rotate(180deg);
+                    transition: transform 150ms;
+                    -webkit-transition: transform 150ms;
+                }
+                .up{
+                    transform: rotate(360deg) !important;
+                    -webkit-transform: rotate(360deg) !important;
+                }
+                .foot{
+                    text-align:center;
+                    height:.3rem;
+                    line-height: .3rem;
+                }
+                .foot img{
+                    display:inline-block;
+                    height:.15rem;
+                    width:.15rem;
+//                  transform: rotate(0deg);
+//                  -webkit-transform: rotate(0deg);
+                    transition: transform 150ms;
+                    -webkit-transition: transform 150ms;
+                }
+                .down{
+                    transform: rotate(180deg) !important;
+                    -webkit-transform: rotate(180deg) !important;
+                }
+                
+                #home-swiper {
+                  width: 100%;
+                  height:1.93rem;
+                  img {
+                    width: 100%;
+                   height:1.93rem;
+                  }
+                }
+
+                .nav{
+                    width:100%;
+                    height:.9rem;
+                        ul {
+                          @include flexbox();
+                          @include flex-direction();
+                          width: 100%;
+                          height:.9rem;
+                          li{
+                             @include flex(1);
+                             @include flexbox();
+                             @include flex-direction(column);
+                             @include align-items(center);
+                             @include justify-content(center);
+                             img{
+                                  display: block;
+                                  width:44px;
+                                  margin-bottom: .05rem;
+                                }
+                             b {
+                                  display: block;
+                                  font-weight: normal;
+                                  font-size: 10px;
+                                 color:#666;
+                                }
+                          }
+                    }
+                }
+                .content{
+                    ul{
+                       width:100%;
+                       margin-top:.05rem;
+                       @include flexbox();
+                       li{
+                          @include flex(1);
+                          margin-left:.13rem;
+                          margin-right: .13rem;
+                          &:nth-child(2){
+                             margin-left: 0; 
+                          }
+                          img{
+                              display: block;
+                              width: 100%;
+    //                        height:100%;
+                          }
+                          b{
+                              display: block;
+                              font-weight: normal;
+                              font-size: 14px;
+                              padding-top:.05rem;
+                          }
+                          &.hide{
+                                visibility: hidden;
+                            }
+                       }
+                        &:last-child {
+                            padding-bottom: .1rem;
+                }
+                
+                    }
+                }
+            }
+            
+            
+        }
+       
+    }
+}

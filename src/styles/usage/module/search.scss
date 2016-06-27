@@ -1,0 +1,74 @@
+//第一种
+//.m-search{
+//  width:100%;
+//  height:100%;
+//  header {
+//      height:.44rem;
+//      background: #FF4C00;
+//      ul{
+//          @include flexbox();
+//          height:100%;
+//          li{
+//            text-align: center;
+//            line-height: .44rem;
+//            color:#fff; 
+//            &:not(:nth-child(2)) {
+//              width: .44rem;
+//              text-align: center;
+//              line-height: .44rem;
+//              color: #fff;
+//              font-size: .2rem;
+//           }
+//            &:nth-child(2) {
+//              @include flex(1);
+//              width: 100%;
+//              text-align: center;
+//              line-height: .44rem;
+//              color: #fff;
+//            } 
+//          }
+//      }
+//  }
+//  section{
+//      width:100%;
+//      height:100%;
+//      img{
+//          width:100%;
+//      }
+//  }
+//}
+
+//第二种
+.m-search {
+  .m-search-img {
+    height: 2rem;
+    width: 100%;
+    background: #ddd;
+  }
+  .m-search-menu {
+    height: .44rem;
+    background: red;
+    width: 100%;
+    &.fixed {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  }
+  .m-search-content {
+    height: 10rem;
+    background: #f9efd4;
+    width: 100%;
+  }
+}
+
+.m-search-menu {
+  height: .44rem;
+  background: red;
+  width: 100%;
+  &.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}

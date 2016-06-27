@@ -1,0 +1,23 @@
+<div class="m-huangou">
+	<header>
+		<ul>
+			<li></li>
+			<li><b>积分换购</b></li>
+			<li></li>
+		</ul>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="hg-img">
+				<img src="/xiguo/images/hg-bg.png"/>
+			</div>
+			
+		</div>
+				
+	
+
+	</section>
+	<!--<div class="yo-loading" ms-visible="isShowLoading">
+		<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+	</div>-->
+</div>

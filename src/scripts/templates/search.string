@@ -1,0 +1,30 @@
+<!--第一种-->
+<!--<div class="m-search">
+	<header>
+		<ul>
+			<li action-type="back" class="yo-ico">&#xe679;</li>
+			<li><b>发现</b></li>
+			<li></li>
+		</ul>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="hg-img">
+				<img src="/xiguo/images/banner2.png"/>
+			</div>
+			
+		</div>
+	</section>
+	<!--<div class="yo-loading" ms-visible="isShowLoading">
+		<div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+	</div>
+</div>-->
+
+<!--第二种-->
+<div class="m-search" spa-widget="scroll" data-scroll-id="fixScroll">
+	<div>
+		<div class="m-search-img"></div>
+		<div class="m-search-menu"></div>
+		<div class="m-search-content"></div>
+	</div>
+</div>

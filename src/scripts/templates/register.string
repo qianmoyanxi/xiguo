@@ -1,0 +1,44 @@
+<div class="my-register" >
+	<header>
+		<ul>
+			<li action-type="back" class="yo-ico">&#xe679;</li>
+			<li><b>注册</b></li>
+			<li action-type="back">登录</li>
+		</ul>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="my-bg">
+				<img src="/xiguo/images/my-bg.jpg"/>
+			</div>
+			<div class="my-form">
+				<div>
+					<i class="yo-ico">&#xe737;</i>
+					<input type="text" name="username" id="username" value="" placeholder="请输入手机号"/>
+				</div>
+				<div>
+					<i class="yo-ico">&#xe692;</i>
+					<input type="password" name="pwd" id="pwd" value="" placeholder="请输入密码"/>
+				</div>
+				<div>
+					<i class="yo-ico">&#xe692;</i>
+					<input type="text" name="yzm" id="yzm" value="" placeholder="请输入验证码"/>
+					<input type="button" id="fsyzm" value="发送验证码"/>
+				</div>
+				<div>
+					<i class="yo-ico">&#xe692;</i>
+					<input type="text" name="yqm" id="yqm" value="" placeholder="请输入邀请码(选填)"/>
+				</div>
+				<ul>
+					<li>
+						<input type="button"  id="registerBtn" value="免费注册" />
+					</li>
+				</ul>
+			
+			</div>
+		</div>
+		
+		
+		
+	</section>
+</div>
